@@ -1,7 +1,7 @@
 import { Telegraf } from "telegraf";
 import fs from 'fs'
-import {TOKEN} from './config.js'
-import {compress} from './functions/compress.js'
+import {TOKEN} from '../src/config.js'
+import {compress} from '../src/functions/compress.js'
 import path from "path";
 import fetch from "node-fetch";
 import { fileURLToPath } from 'url';
