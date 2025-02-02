@@ -5,9 +5,6 @@
         "src": "api/bot.js",  
         "use": "@vercel/node"
       }
-    ],
-    "env": {
-      "BOT_TOKEN": "@telegram-bot-token"  
-    }
+    ]
   }
   
